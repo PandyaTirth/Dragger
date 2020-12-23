@@ -1,0 +1,17 @@
+.box1, .box2{
+    width: 200px;
+    height:100px;
+  }
+  .box1{
+    background-color:green;
+  }
+  .box2{
+    background-color:yellow;
+  }
+  #copy-container, #drag-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
